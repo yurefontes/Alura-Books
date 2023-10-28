@@ -113,7 +113,71 @@
         </div>
 
     </section>
-    
+
+    <!-- A partir daqui, eu copiei e colei o codigo da section acima, porem mudando somente o conteudo dos itens. !-->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo"> Mais Vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="Assets/Nodejs.svg"  Javascript
+                    alt="Livro sobre a varsão atualizada da linguagem de Progamação"></div>
+
+                <div class="swiper-slide"><img src="Assets/Gestão.svg"     Lideranc╠ºa
+                    alt="Livro sobre como aumentar as chances de sucesso do seu software"></div>
+
+                <div class="swiper-slide"><img src="Assets/MetricasAgeis.svg"  Javascript
+                    alt="Livro sobre obtenha melhores resultados em sua equipe"></div>
+
+                <div class="swiper-slide"><img src="Assets/Arquitetura.svg" Guia Front-end
+                    alt="Livro sobre boas praticas para um mundo de microsserviços"></div>
+
+                <div class="swiper-slide"><img src="Assets/MEAN.svg" Portugol
+                    alt="Livro sobre Full stack JavaScript para aplicações web com mongoDB, Express, Angular e Node."></div>
+
+                <div class="swiper-slide"><img src="Assets/Construct.svg" Acessibilidade
+                    alt="Livro sobre criar o seu primeiro jogo multiplataforma"></div>
+            </div>   
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <!-- Essa Div Foi Totalmente Copiada e Colada, Trocando somente os conteudos, porem a estrutura foi a da aula anterior !-->
+        <div class="card">
+            <!-- 1º linha-->
+            <div class="card__descrição">
+                <!-- 1º Coluna-->
+                <div class="descrição">
+                    <img class="card__estrelinhas" src="Assets/Estrelinhas.svg" alt="Cinco Estrelinhas">
+                    <h3 class="descrição__titulo">Autora do Mês</h3>
+                    <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                </div>
+                <!-- 2º Coluna-->
+                <img src="Assets/Escritora.svg" class="descrição__imagem">
+            </div>
+
+            <!-- 2º linha-->
+            <div class="card__botões">
+                <!-- 1º Coluna-->
+                <ul class="botões">
+                    <li class="botões__item"><img src="Assets/Favoritos.svg" alt="Favoritar Livro"></li>
+                    <li class="botões__item"><img src="Assets/Compras.svg" alt="Adicionar no carrinhos de compras"></li>
+                </ul>
+                <!-- 2º Coluna-->
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Final da section copiada !-->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>const swiper = new Swiper('.swiper',{spaceBetween: 10,slidesPerView: 3,pagination: {el: '.swiper-pagination',type: 'bullets',}});
     </script>
